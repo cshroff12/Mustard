@@ -1,0 +1,101 @@
+/* Mustard Style Sheet */
+
+body {
+    background-image: url(https://preview.redd.it/the-actual-full-photo-of-kendrick-smiling-looks-so-wrong-v0-dr44n6phj69f1.jpeg?width=1080&format=pjpg&auto=webp&s=ad169a79df3b9f0b836227ce00b3d231c38cd956); /* replace with your image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+}
+
+.title {
+    font-size: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Mustard-body1, .Mustard-body2, .Mustard-body3 {
+    
+    width: 80%;
+    background-color: #FFDB58;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 50px 50px 50px;
+    margin-bottom: 50px;
+}
+
+.Mustard-title {
+    width: 80%;
+    background-color: #FFDB58;
+    margin-left: auto;
+    margin-right: auto;    
+    padding: 1px 50px 50px 50px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.filled-img {
+    width: 1210px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Kendrick-img {
+    width: 1522px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Mustard-body3 {
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+/*
+.custom-list  {
+    list-style-position: inside;
+    list-style-image: url(https://preview.redd.it/serious-question-where-did-this-pic-come-from-ive-seen-it-v0-cdgeb21q8gmd1.jpeg?auto=webp&s=bd2637043374e061d62b001e62a7d5b725d115d0);
+}
+    */
+
+    .custom-list {
+  list-style: none; /* removes default bullets */
+  padding-left: 0;
+}
+
+.custom-list li {
+  position: relative;
+  padding-left: 40px; /* adjust space for image */
+}
+
+.custom-list li::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px; /* adjust size */
+  height: 15px;
+  background-image: url('https://preview.redd.it/serious-question-where-did-this-pic-come-from-ive-seen-it-v0-cdgeb21q8gmd1.jpeg?auto=webp&s=bd2637043374e061d62b001e62a7d5b725d115d0');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 4px; /* optional: smooth corners */
+}
+
+hr {
+    background-color: goldenrod;
+    border-color: goldenrod;
+    border: none;
+    height: 2px;
+}
+
+.italic {
+    font-style: italic;
+    margin: 0px;
+}
