@@ -38,7 +38,7 @@ body {
 }
 
 .filled-img {
-    width: 1210px;
+    width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
@@ -46,7 +46,7 @@ body {
 }
 
 .Kendrick-img {
-    width: 1522px;
+    width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
