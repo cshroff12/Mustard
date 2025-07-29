@@ -99,3 +99,9 @@ hr {
     font-style: italic;
     margin: 0px;
 }
+
+.exclamation {
+    max-width: 100%;
+    width: 100%;
+    word-wrap: break-word;
+}
